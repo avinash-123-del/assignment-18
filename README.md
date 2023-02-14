@@ -2,4 +2,4 @@
 
 Lnk to visit the output page is mentioned below
 
-assignment-18-media-query.netlify.app
+https://assignment-18-media-query.netlify.app/
