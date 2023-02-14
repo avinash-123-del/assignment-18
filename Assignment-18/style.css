@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+.hambrger img{
+    display: none;
+    height: 25px;
+    width: 25px;
+
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: white;
+    font-size: 20px;
+    background-color:black;
+    height: 60px;
+    padding-right: 50px;
+    width: 100%;
+   
+}
+li{
+    margin: 10px;
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+.home{
+    padding:10px;
+    padding-left: 15px;
+    background: rgb(100, 100, 224);
+    border-radius: 15px;
+    width: 80px;
+    
+}
+.top-left img{
+    width: 20px;
+    height: 20px;
+}
+.pc-image img{
+    height: 200px;
+    width: 200px;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.devloper{
+    color: yellow;
+}
+.section2{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    display: flex;
+    height: 6px;
+ width: 80px;
+ background: rgb(41, 41, 144);
+ margin-left:180px ;
+}
+
+.section2-image{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.section2-image img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.section2-image p{
+    display: flex;
+    justify-content: center; 
+}
+.section3{
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.section3 img{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+.section3-img{
+    display: flex;
+    justify-content: center;
+}
+.section3 .line{
+    display: flex;
+    justify-content: center;
+    margin-right: 180px;
+    width: 100px;
+}
+
+
+@media screen and  (max-width: 800px){
+    ul{
+       display: none; 
+    }
+    
+    .hambrger img{
+        display: flex;
+        height: 25px;
+        width: 25px;
+        margin-top: 10px;
+        margin-left: 30px;
+        cursor: pointer;
+    
+    }
+    .section1{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        gap: 10px;
+    }
+    .top-left{
+        display: grid;
+        justify-items: center;
+    }
+    .pc-image img{
+        height: 150px;
+        width: 150px;
+    }
+    .section2-image{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .section2-image img{
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+    }
+
+    .section2 .line{
+        margin-right: 180px;
+    }
+
+}
+    
+
